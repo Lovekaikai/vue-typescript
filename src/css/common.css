@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background: rgb(236, 236, 236)
+}
+
+.container {
+    height: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: ' ';
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
